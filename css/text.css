@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+img {
+  width: 50px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  font-family: Poppins, sans-serif;
+}
+
+p,
+h2,
+h3 {
+  font-family: "Questrial", sans-serif;
+}
+header {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Navbar Styling */
+
+.navlist .links a {
+  font-family: "Questrial", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+header {
+  text-align: center;
+  height: 100vh;
+}
+
+.name {
+  font-family: "Poppins", serif;
+  font-size: 80px;
+  width: 100%;
+}
+
+.details {
+  font-size: 20px;
+  margin-top: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  gap: 1rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+/* Navbar for final layout */
+.navbar {
+  width: 100%;
+  top: 0;
+}
+
+.links a {
+  font-size: 1.2rem;
+}
+
+.name {
+  font-family: "Poppins", serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+.years-content {
+  text-align: center;
+  gap: 1rem;
+}
+
+.years h4 {
+  font-size: 16px;
+  margin: 0;
+  width: 90%;
+}
+
+.years p {
+  font-size: 10px;
+  width: 95%;
+}
+
+.myself {
+  font-family: "Questrial", sans-serif;
+  font-weight: normal;
+}
+
+.name {
+  margin-top: 1rem;
+}
+
+.cv button {
+  font-family: "Poppins", serif;
+  color: #141515;
+  font-size: 1rem;
+}
+
+.accom h1 {
+  text-align: left;
+  font-size: 3rem;
+}
+
+.about-me p {
+  width: 57%;
+  text-align: left;
+  line-height: 2rem;
+  font-size: 20px;
+}
+
+.skill-dets h1 {
+  text-align: left;
+  font-size: 3rem;
+}
+
+.skill-sub {
+  font-weight: 400;
+}
+
+.card-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.card-heading {
+  width: 100%;
+  text-align: center;
+}
+
+.card-heading h3 {
+  font-weight: 400;
+}
+
+.card-heading h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+.cards-cont p {
+  text-align: center;
+  width: 70;
+  line-height: 20px;
+  font-size: 16px;
+  height: 100;
+}
+
+.timeline-main {
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.timeline-main h1 {
+  font-size: 3rem;
+}
+
+.timeline-main h2 {
+  font-weight: 400;
+}
+
+.timeline-event-copy .timeline-event-thumbnail {
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.timeline-event-copy h3 {
+  font-size: 1.75em;
+  font-family: "Poppins", sans-serif;
+}
+
+.timeline-event-copy h4 {
+  font-size: 1.2em;
+}
+
+.infos-dets p {
+  font-size: 19px;
+  margin-bottom: 4rem;
+}
+
+.content-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.proj-dets h1 {
+  text-align: left;
+  font-size: 3rem;
+}
+
+.proj-sub {
+  font-weight: 400;
+}
+
+.proj-overlay h1 {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.proj-overlay p {
+  font-size: 0.8rem;
+  font-family: "Questrial", sans-serif;
+}
+
+/* Section Title */
+.educ-dets h1 {
+  font-size: 3.5rem;
+}
+
+/* Text Details */
+.educ-details h2 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.educ-details h1 {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+}
+
+.educ-details h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.educ-certs h1 {
+  font-size: 3rem;
+}
+
+.contact-dets h1 {
+  font-size: 3.5rem;
+}
+
+/* Contact Header */
+.contact-dets h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.link-item i {
+  font-size: 1.5rem;
+}
+
+.footer-logo {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.control {
+  width: fit-content;
+  position: fixed;
+  top: 35%;
+  left: 3%;
+  transform: translateY(-50%);
+  height: fit-content;
+  z-index: 99;
+  animation: floatup 2s ease-in-out infinite;
+}
+
+.vectors {
+  display: flex;
+  border-radius: 100px;
+  backdrop-filter: blur(20px);
+  flex-direction: column;
+  padding: 10px;
+}
+
+.vectors img {
+  width: 50px;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.vectors img:nth-child(2):hover {
+  transform: scale(1.2);
+}
+
+@keyframes floatup {
+  0%,
+  100% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+}
+
+header,
+.content-section,
+.content-project,
+.content-skill,
+.content-timeline,
+.content-educ,
+.content-contact,
+footer {
+  display: none;
+}
